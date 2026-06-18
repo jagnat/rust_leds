@@ -12,7 +12,7 @@ panic-probe = { version = "0.3", features = ["print-defmt"] }
 # TODO(4) Select the correct rtic backend
 rtic = { version = "2.0.0", features = [ "thumbv7-backend" ] }
 # TODO(5) Add hal as dependency
-stm32f4xx-hal = {version = "0.23.0", features = [ "stm32f411" ] }
+stm32f4xx-hal = {version = "0.23.0", features = [ "stm32f411", "i2s" ] }
 embedded-hal = {version = "1.0.0"}
 # rtt-target = {version = "0.6.2"}
 rtic-monotonics = {version = "2.1.0", features = [ "cortex-m-systick" ]}
